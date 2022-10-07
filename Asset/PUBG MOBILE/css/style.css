@@ -1,0 +1,239 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #141b3d;
+	background-position: center;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* HEADER STARTS FORM HERE */
+
+.header {
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	background: var(--bg-color-3, #141b3d);
+	z-index: 10000;
+}
+
+.logo a {
+	position: absolute;
+	font-size: 35px;
+	font-weight: bold;
+	top: 15px;
+	left: 5%;
+	display: inline-block;
+}
+
+.header-btns {
+	position: absolute;
+	right: 30px;
+	top: 25px;
+	display: inline-block;
+}
+
+.header-btns a {
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* PURCHASE AREA STARTS FORM HERE */
+
+.pbg-logo img {
+	position: absolute;
+	top: -40px;
+	left: 100px;
+}
+
+.playerid {
+	position: absolute;
+	top: 230px;
+	left: 60px;
+	line-height: 6em;
+}
+
+.playerid h2 {
+	color: white;
+	border: 2px solid white;
+	display: inline;
+	padding: 10px 30px;
+	border-radius: 5px;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+.playerid input {
+	border: 2px solid white;
+	display: inline;
+	padding: 10px 30px;
+	background: #141b3d;
+	border: 1px solid white;
+	margin-left: 70px;
+	border-radius: 5px;
+	color: aliceblue;
+	font-size: large;
+}
+
+::-webkit-input-placeholder {
+	color: white;
+	font-size: 17px;
+}
+
+/* Payment Method STARTS FROM HERE */
+
+.grl img {
+	position: absolute;
+	top: 40%;
+	left: 70%;
+}
+
+.payment-method h2 {
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 70%;
+	left: 5%;
+}
+
+.jazz-select {
+	position: absolute;
+	top: 90%;
+	left: 70px;
+}
+
+.visa-select {
+	position: absolute;
+	top: 5%;
+	left: 300px;
+}
+
+/* RESPONSIVE DESIGN STARTS FROM HERE */
+
+@media (max-width: 375px) {
+
+	/* HEADER STARTS FORM HERE */
+	body {
+		background: var(--bg-color-3, #165e48);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+
+	.header {
+		width: 114%;
+		height: 40px;
+		position: absolute;
+		background: var(--bg-color-3, #141b3d);
+		z-index: 10000;
+	}
+
+	.logo a {
+		position: absolute;
+		font-size: 15px;
+		font-weight: bold;
+		top: 9px;
+	}
+
+	.header-btns {
+		position: absolute;
+		right: 5px;
+		top: 10px;
+	}
+
+	.header-btns a {
+		margin: 10px;
+		font-size: 13px;
+		font-weight: bold;
+	}
+
+	/* PURCHASE AREA STARTS FORM HERE */
+
+	.pbg-logo img {
+		position: absolute;
+		top: 17px;
+		left: -52px;
+		width: 481px;
+		height: 193px;
+		display: inline-block;
+	}
+
+	.playerid {
+		position: absolute;
+		top: 158px;
+		left: 8px;
+		line-height: 4em;
+	}
+
+	.playerid h2 {
+		color: white;
+		border: 2px solid white;
+		display: inline;
+		padding: 10px 30px;
+		border-radius: 5px;
+		font-size: 17px;
+		font-family: sans-serif;
+	}
+
+	.playerid input {
+		border: 2px solid white;
+		display: inline;
+		padding: 10px 35px;
+		background: #141b3d;
+		border: 1px solid white;
+		margin-left: 70px;
+		border-radius: 5px;
+		color: aliceblue;
+		font-size: large;
+	}
+
+	::-webkit-input-placeholder {
+		color: white;
+		font-size: 17px;
+		text-align: center;
+	}
+
+	/* Payment Method STARTS FROM HERE */
+
+	.grl img {
+		position: absolute;
+		top: 64.5%;
+		left: 66%;
+		width: 181px;
+		height: 338px;
+	}
+
+	.payment-method h2 {
+		position: absolute;
+		color: white;
+		font-size: 24px;
+		top: 45%;
+		left: 5%;
+	}
+
+	.jazz-select img {
+		position: absolute;
+		top: -222px;
+		left: -10px;
+		width: 205px;
+		height: 119px;
+	}
+
+	.visa-select img {
+		position: absolute;
+		top: -22px;
+		left: -378px;
+		width: 288px;
+		height: 128px;
+	}
+
+}

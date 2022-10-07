@@ -1,0 +1,465 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #141b3d;
+	background-position: center;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+.grl img {
+	position: absolute;
+	top: 24%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* HEADER STARTS FORM HERE */
+
+.header {
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	background: var(--bg-color-3, #141b3d);
+	z-index: 10000;
+}
+
+.logo a {
+	position: absolute;
+	font-size: 35px;
+	font-weight: bold;
+	top: 15px;
+	left: 5%;
+	display: inline-block;
+}
+
+.header-btns {
+	position: absolute;
+	right: 30px;
+	top: 25px;
+	display: inline-block;
+}
+
+.header-btns a {
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* PURCHASE AREA STARTS FORM HERE */
+
+.pbg-logo img {
+	position: absolute;
+	top: 5%;
+	left: 100px;
+}
+
+/* PRODUCTS STARTS FROM HERE */
+
+.products h2 {
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	top: 60%;
+	left: 5%;
+}
+
+.a60uc img {
+	position: absolute;
+	display: inline-block;
+	width: 180px;
+	height: 200px;
+	top: 75%;
+	left: 80px;
+}
+
+.a180uc img {
+	position: absolute;
+	display: inline-block;
+	width: 180px;
+	height: 200px;
+	top: 75%;
+	left: 28%;
+}
+
+.a240uc img {
+	position: absolute;
+	display: inline-block;
+	width: 180px;
+	height: 200px;
+	top: 75%;
+	left: 48%;
+}
+
+.a324uc img {
+	position: absolute;
+	display: inline-block;
+	width: 180px;
+	height: 200px;
+	top: 113%;
+	left: 80px;
+}
+
+.a660uc img {
+	position: absolute;
+	display: inline-block;
+	width: 180px;
+	height: 200px;
+	top: 113%;
+	left: 28%;
+}
+
+.a1320uc img {
+	position: absolute;
+	display: inline-block;
+	width: 180px;
+	height: 200px;
+	top: 113%;
+	left: 48%;
+}
+
+.a1800uc img {
+	position: absolute;
+	display: inline-block;
+	width: 180px;
+	height: 200px;
+	top: 151%;
+	left: 80px;
+}
+
+.a3850uc img {
+	position: absolute;
+	display: inline-block;
+	width: 180px;
+	height: 200px;
+	top: 151%;
+	left: 28%;
+}
+
+.list-box button {
+	position: absolute;
+	top: 106%;
+	left: 80px;
+	padding: 8px 79.5px;
+	background: #364cb9;
+	border: none;
+}
+
+.list-box button a {
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+}
+
+.list-box button:hover {
+	background: #12b85c;
+}
+
+.go-btn180 {
+	position: absolute;
+	top: 106%;
+	left: 20%;
+}
+
+.go-btn240 {
+	position: absolute;
+	top: 106%;
+	left: 40%;
+}
+
+.go-btn324 {
+	position: absolute;
+	top: 144%;
+	left: 20%;
+}
+
+.go-btn660 {
+	position: absolute;
+	top: 144%;
+	left: 40%;
+}
+
+.go-btn1320 {
+	position: absolute;
+	top: 144%;
+}
+
+.go-btn1800 {
+	position: absolute;
+	top: 182%;
+}
+
+.go-btn3850 {
+	position: absolute;
+	top: 182%;
+	left: 20%;
+}
+
+.howpayment {
+	position: absolute;
+	z-index: 1001;
+	text-align: center;
+	line-height: 2em;
+	top: 155%;
+	left: 48%;
+}
+
+.howpayment:hover {
+	background-color: yellowgreen;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.howpayment a {
+	color: #b81212;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.howpayment a:hover {
+	background-color: black;
+	color: white;
+	overflow: hidden;
+	padding: 10px 0px;
+	border-radius: 5px;
+}
+
+/* RESPONSIVE DESIGN STARTS FROM HERE */
+
+@media (max-width: 375px) {
+
+	/* HEADER STARTS FORM HERE */
+	body {
+		background: var(--bg-color-3, #165e48);
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+
+	.header {
+		width: 114%;
+		height: 40px;
+		position: absolute;
+		background: var(--bg-color-3, #141b3d);
+		z-index: 10000;
+	}
+
+	.logo a {
+		position: absolute;
+		font-size: 15px;
+		font-weight: bold;
+		top: 9px;
+	}
+
+	.header-btns {
+		position: absolute;
+		right: 5px;
+		top: 10px;
+	}
+
+	.header-btns a {
+		margin: 10px;
+		font-size: 13px;
+		font-weight: bold;
+	}
+
+	/* PURCHASE AREA STARTS FORM HERE */
+
+	.pbg-logo img {
+		position: absolute;
+		top: 17px;
+		left: -52px;
+		width: 481px;
+		height: 193px;
+		display: inline-block;
+	}
+
+	/* PRODUCTS STARTS FROM HERE */
+
+	.products h2 {
+		position: absolute;
+		color: white;
+		font-size: 30px;
+		top: 27%;
+		left: 5%;
+	}
+
+	.a60uc img {
+		position: absolute;
+		display: inline-block;
+		width: 128px;
+		height: 137px;
+		top: 35%;
+		left: 20px;
+	}
+
+	.a180uc img {
+		position: absolute;
+		display: inline-block;
+		width: 128px;
+		height: 137px;
+		top: 35%;
+		left: 43%;
+	}
+
+	.a240uc img {
+		position: absolute;
+		display: inline-block;
+		width: 128px;
+		height: 137px;
+		top: 35%;
+		left: 80%;
+	}
+
+	.a324uc img {
+		position: absolute;
+		display: inline-block;
+		width: 128px;
+		height: 137px;
+		top: 63%;
+		left: 21px;
+	}
+
+	.a660uc img {
+		position: absolute;
+		display: inline-block;
+		width: 128px;
+		height: 137px;
+		top: 63%;
+		left: 43%;
+	}
+
+	.a1320uc img {
+		position: absolute;
+		display: inline-block;
+		width: 128px;
+		height: 137px;
+		top: 63%;
+		left: 80%;
+	}
+
+	.a1800uc img {
+		position: absolute;
+		display: inline-block;
+		width: 128px;
+		height: 137px;
+		top: 90%;
+		left: 25px;
+	}
+
+	.a3850uc img {
+		position: absolute;
+		display: inline-block;
+		width: 128px;
+		height: 137px;
+		top: 90%;
+		left: 44%;
+	}
+
+	.list-box button {
+		position: absolute;
+		top: 56%;
+		left: 19px;
+		padding: 4px 53.5px;
+		background: #364cb9;
+		border: none;
+	}
+
+	.list-box button a {
+		color: rgb(255, 255, 255);
+		font-weight: bold;
+	}
+
+	.list-box button:hover {
+		background: #12b85c;
+	}
+
+	.go-btn180 {
+		position: absolute;
+		top: 56%;
+		left: 37%;
+	}
+
+	.go-btn240 {
+		position: absolute;
+		top: 56%;
+		left: 75%;
+	}
+
+	.go-btn324 {
+		position: absolute;
+		top: 84%;
+		left: 37%;
+	}
+
+	.go-btn660 {
+		position: absolute;
+		top: 84%;
+		left: 74%;
+	}
+
+	.go-btn1320 {
+		position: absolute;
+		top: 84%;
+	}
+
+	.go-btn1800 {
+		position: absolute;
+		top: 111%;
+		left: 4px;
+	}
+
+	.go-btn3850 {
+		position: absolute;
+		top: 111%;
+		left: 39%;
+	}
+
+	.howpayment {
+		position: absolute;
+		z-index: 1001;
+		text-align: center;
+		line-height: 1em;
+		top: 90%;
+		left: 83%;
+	}
+
+	.howpayment h1 {
+		font-size: 20px;
+	}
+
+	.howpayment:hover {
+		background-color: yellowgreen;
+		padding: 10px;
+		border-radius: 5px;
+	}
+
+	.howpayment a {
+		color: #b81212;
+		font-weight: bolder;
+		font-size: 17px;
+	}
+
+	.howpayment a:hover {
+		background-color: black;
+		color: white;
+		overflow: hidden;
+		padding: 10px 0px;
+		border-radius: 5px;
+	}
+
+}
